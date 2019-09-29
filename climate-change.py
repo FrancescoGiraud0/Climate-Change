@@ -3,7 +3,7 @@ mpl.use('TkAgg')
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = np.genfromtxt('1880-2017.csv', delimiter=',', dtype=None, skip_header=5, names=('Year', 'Value'))
+data = np.genfromtxt('1880-2019.csv', delimiter=',', dtype=None, skip_header=5, names=('Year', 'Value'))
 
 plt.title('Anomalia della temperatura')
 plt.xlabel('Anno')
